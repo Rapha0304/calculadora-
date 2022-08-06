@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contador de dias</title>
+    </head>
+    <body>
+        <h1>Calcular dias</h1>
+        <form name="form_main">
+            <label for="date_ini">Date Inicial:</label> <input name="date_ini" id="date_ini1" type="date">
+            <label for="date_end">Date Final:</label> <input name="date_end" id="date_end1" type="date"> 
+            <br>
+            <label for="days1">Faltam:</label><span id="days1"></span> 
+            <br>
+            <button id="button1" type="button" onclick="countDays(this.id)">Contar</button>
+            <p>Hoje é feriado!!</p>
+        </form>    
+        <form name="form_main">
+            <label for="date_ini">Date Inicial</label> <input name="date_ini" id="date_ini2" type="date">
+            <label for="date_end">Date Final:</label> <input name="date_end" id="date_end2" type="date">
+            <br>
+            <label for="days2">Faltam:</label> <span id="days2"></span>
+            <br>
+            <button id="button2" type="button" onclick="countDays(this.id)">Contar</button>
+            <p>Hoje é meu aniversario!!</p>
+        </form>
+    </body>
+<script src="script.js"></script>
+
+</html>
